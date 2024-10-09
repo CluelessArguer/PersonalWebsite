@@ -1,0 +1,87 @@
+.projects{
+    margin-inline-start:5%;
+}
+
+.subtitle{
+    margin-block-start:0.4rem;
+}
+
+.icon-style{
+    color: var(--dark-grey);
+    border: 2px solid var(--dark-grey);
+    box-shadow:none;
+    background: var(--white);
+}
+
+.content-style{
+    color:#000000;
+    background: var(--dark-grey);
+}
+
+.work-tasks{
+    padding:0;
+    margin-block-start:1rem;
+    margin-inline:1rem;
+    font-family: inherit;
+}
+
+.work-tasks > li{
+    margin-block-end:0.2rem;
+    list-style-type: square;
+}
+
+.work-tasks > li::marker{
+    color:var(--dark-grey);
+}
+
+.work{
+    margin-block-start:0.5rem;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.skills{
+    background: var(--red);
+    color:var(--white);
+    padding-block:0.2rem;
+    padding-inline:0.5rem;
+    margin-inline-end:0.5rem;
+    margin-block-start:0.5rem;
+    border-radius: 1rem;
+}
+
+.button{
+    display:inline-block;
+    margin-block-start:1rem;
+    margin-inline-end:0.5rem;
+    background: var(--light-grey);
+    border:none;
+    color:#000;
+    padding-block:0.4rem;
+    padding-inline:0.5rem;
+    font-family:inherit;
+    border-radius:0.2rem;
+    text-decoration: none;
+    font-size:0.8rem;
+}
+
+.button:hover{
+    background:var(--dark-grey);
+    color:#fff;
+    cursor:pointer;
+}
+
+.button:hover .icon{
+    color:var(--white);
+}
+
+.icon{
+    margin-inline-end:0.5rem;
+    position:relative;
+    top:5%;
+}
+
+.icon-group{
+    position:relative;
+}
+

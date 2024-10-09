@@ -1,0 +1,59 @@
+.contact{
+    justify-content: space-evenly;
+    margin-block-start:5rem;
+    padding-block:3rem 2rem;
+    padding-inline:4rem;
+    background-color: var(--dark-grey);
+    color:var(--white);
+    flex-wrap: wrap;
+}
+
+.form{
+    flex: 1 1 auto;
+}
+
+.connect{
+    flex: 0 1 55%;
+}
+
+.heading3{
+    font-size:1.5rem;
+    margin-top:0;
+}
+
+.icon, .icon-skill{
+    font-size:1.5rem;
+    margin-inline-end:2rem;
+}
+
+.icon:hover{
+    cursor:pointer;
+}
+
+.link:visited,.link:active, .link:link{
+    color:var(--white);
+}
+
+.icon-group{
+    margin-block-start:1.5rem;
+}
+
+.toolkit{
+    margin-block: 2rem 0;
+}
+
+.errorMessage{
+    font-style: italic;
+    color:#DC143C;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 992px){
+    .form{
+        margin-block-start:2rem;
+    }
+
+    .connect{
+        flex: 0 1 100%;
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "short_name": "Portfolio",
+  "name": "Portfolio",
+  "icons": [
+    {
+      "src": "code.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#544C4A",
+  "background_color": "#FFFFFF"
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+:root{
+    --dark-grey: #544C4A;
+    --light-grey: #F0F0F0;
+    --red: #8F0000;
+    --white: #FFFFFF;
+}
+
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Cutive Mono', monospace;
+    color: var(--dark-grey);
+}
+
+.flex-column{
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+
+.icon-group{
+    margin-block-start: 1.5rem;
+}
+
+.icon{
+    color:var(--dark-grey);
+    font-size:1.5rem;
+    margin-inline-end:2rem;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.color{
+    color:var(--red);
+    font-weight: bold;
+}
+
+.input,textarea{
+    border: none;
+    outline:none;
+    font-family:inherit;
+    border-radius:0.25rem;
+    margin-block-end:0.5rem;
+}
+
+.input{
+    block-size:2rem;
+    padding-inline: 0.5rem;
+    margin-block: 0.5rem;
+}
+
+.textarea{
+    margin-block:0.5rem;
+}
+
+.label{
+    margin-block:0.5rem 0.2rem;
+}
+
+.submit{
+    border:none;
+    background-color: var(--dark-grey);
+    color:var(--white);
+    block-size:2rem;
+    margin-block-start:0.5rem;
+    border-radius: 0.25rem;
+    font-family:inherit;
+    font-size:1rem;
+    inline-size:9rem;
+    align-self:center;
+    border:1.5px solid var(--white);
+}
+
+.submit:hover{
+    cursor:pointer;
+    background-color: var(--white);
+    color:var(--dark-grey);
+    font-weight: bold;
+    border:none;
+}
+
+.tooltip{
+    background-color:var(--dark-grey);
+}
+
+@media only screen and (max-width: 992px){
+    .icon-group{
+        justify-content: center;
+    }
+    
+    .icon{
+        margin-inline: 1rem;
+    }
+}

@@ -1,0 +1,6 @@
+.footer{
+    padding-block:10rem;
+    background-color:var(--red);
+    margin-block-start:5rem;
+    justify-content: space-evenly;
+}
