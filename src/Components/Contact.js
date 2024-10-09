@@ -32,7 +32,7 @@ const Contact=()=>{
                     }
                 </div>
             </div>             
-            <Formik
+           {/* <Formik
                 initialValues={{name:'', email:'', subject:'', message:''}}
                 validationSchema={SignupSchema}
                 onSubmit={sendMessage}
@@ -58,7 +58,7 @@ const Contact=()=>{
                             <button className='submit' type="submit">Send Message</button>
                         </Form>
                     )}
-            </Formik>
+            </Formik>*/}
         </div>
     )
 }

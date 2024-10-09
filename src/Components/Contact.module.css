@@ -1,5 +1,6 @@
 .contact{
-    justify-content: space-evenly;
+text-align: center;
+justify-content: center;
     margin-block-start:5rem;
     padding-block:3rem 2rem;
     padding-inline:4rem;
@@ -36,6 +37,8 @@
 
 .icon-group{
     margin-block-start:1.5rem;
+    margin-inline: auto;
+    justify-content: center;
 }
 
 .toolkit{

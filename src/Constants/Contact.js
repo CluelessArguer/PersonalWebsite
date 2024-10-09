@@ -1,5 +1,5 @@
 import {faHtml5, faCss3Alt, faSquareJs, faReact, faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faMobile, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faMobile, faEnvelope, faUserAstronaut, faUser} from '@fortawesome/free-solid-svg-icons';
 
 export const social= [
     {
@@ -54,6 +54,10 @@ export const skills=[
     {
         skill: 'React',
         icon:faReact
+    },
+    {
+        skill: 'Astro',
+        icon:faUserAstronaut
     },
     {
         skill: 'Responsive Design',

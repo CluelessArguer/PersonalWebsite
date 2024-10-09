@@ -4,17 +4,86 @@ import {faBriefcase, faSchool, faCode} from '@fortawesome/free-solid-svg-icons';
 
 export const timeline=[
     {
+        h3:'Boggs Coffee',
+        h4:'Windsor, ON',
+        skills:['Astro','Shopify/API','TypeScript','React','Responsive Design', 'Development'],
+        body:[
+            'Shopify Storefront API is prevalent across many of the webpages to display '+
+            'products, display blogs, cart mutation, and provide the checkout link. ',
+            'Form Validation, Brevo API, Responsive Design'
+        ],
+        date:'July 2024 - Present',
+        icon:<FontAwesomeIcon icon={faCode} />,
+        button:false,
+        list:true,
+        github:false,
+        link:''
+    },
+    {
+        h3:'Stellar Structures',
+        h4:'Windsor, ON',
+        skills:['Astro', 'Tailwind'],
+        body:[
+            ''
+        ],
+        date:'July 2024',
+        icon:<FontAwesomeIcon icon={faCode} />,
+        button:true,
+        list:false,
+        github:false,
+        link:'https://stellarstructuresinc.com/'
+    },
+    {
+        h3:'Copper Tunnel',
+        h4:'Windsor, ON',
+        skills:['HTML','CSS','JavaScript','PHP','MySQL'],
+        body:[''],
+        date:'June 2024',
+        icon:<FontAwesomeIcon icon={faCode} />,
+        button:true,
+        list:false,
+        github:false,
+        link:'https://www.coppertunnel.net/'
+    },
+    {
+        h3:'Boggs Coffee Landing Page',
+        h4:'Windsor, ON',
+        skills:['HTML','CSS','JavaScript','PHP','MySQL'],
+        body:[''],
+        date:'May 2024',
+        icon:<FontAwesomeIcon icon={faCode} />,
+        button:true,
+        list:false,
+        github:false,
+        link:'https://boggscoffee.com/'
+    },
+    {
+        h3:'Cowlick Studios',
+        h4:'Windsor,ON | Remote',
+        skills:['Astro', 'Shopify', 'React', 'Tailwind'],
+        body:['Developed responsive websites using technologies that met the client’s requirements (with Astro and Tailwind being predominantly used)',
+            'Worked with form validation, databases, API’s, nanostores, and more',
+            'Discussed with colleagues to exchange ideas to solve issues regarding images, mailer, and API’s'
+        ],
+        date:'May 2024 - Present',
+        icon:<FontAwesomeIcon icon={faBriefcase} />,
+        button:true,
+        list:true,
+        github:false,
+        link:'https://cowlickstudios.com/',
+    },
+    {
         h3:'Weather Application',
         h4:'Windsor, ON',
         skills:['React','HTML','CSS','JavaScript'],
         body:'Are you curious to know the current or forecasted weather for a location? '+
-             'Find out right here.',
+             'Find out right here (live website unavailable for the moment).',
         date:'July 2023 - August 2023',
         icon:<FontAwesomeIcon icon={faReact} />,
         button:true,
         list:false,
         github:true,
-        link:'https://app.weather.marcmansour.ca',
+        link:'https://github.com/CluelessArguer/Weather',
         githubLink: 'https://github.com/CluelessArguer/Weather'
     },
     {

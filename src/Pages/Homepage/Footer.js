@@ -4,6 +4,7 @@ import Developed from '../../Components/Developed';
 const Footer=()=>{
     return (
         <footer>
+            <Contact></Contact>
             <Developed/>
         </footer>
     );
