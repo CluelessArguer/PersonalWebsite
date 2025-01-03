@@ -4,56 +4,75 @@ import {faBriefcase, faSchool, faCode} from '@fortawesome/free-solid-svg-icons';
 
 export const timeline=[
     {
-        h3:'Boggs Coffee',
+        h3:'Barraco Physiotherapy',
         h4:'Windsor, ON',
-        skills:['Astro','Shopify/API','TypeScript','React','Responsive Design', 'Development'],
+        skills:['Wordpress','PHP','CSS'],
         body:[
-            'Shopify Storefront API is prevalent across many of the webpages to display '+
-            'products, display blogs, cart mutation, and provide the checkout link. ',
-            'Form Validation, Brevo API, Responsive Design'
+            'Using plugins for backups, form automation, etc ...',
+            'Migrate from dev to live server (databases, files)',
+            'Using Wordpress interface to make responsive website'
         ],
-        date:'July 2024 - Present',
+        date:'Dec 2024',
         icon:<FontAwesomeIcon icon={faCode} />,
-        button:false,
+        button:true,
         list:true,
         github:false,
-        link:''
+        link:'https://barracophysiotherapy.com/'
+    },
+    {
+        h3:'Boggs Coffee',
+        h4:'Windsor, ON',
+        skills:['Astro','Shopify/API','TypeScript','React','Responsive Design'],
+        body:[
+            'Shopify Storefront API is prevalent across many of the webpages to display '+
+            'products, display blogs, cart mutation, and provide the checkout link',
+            'Form Validation, Brevo API, Responsive Design, Routing'
+        ],
+        date:'July 2024 - Dec 2024',
+        icon:<FontAwesomeIcon icon={faCode} />,
+        button:true,
+        list:true,
+        github:false,
+        link:'https://boggscoffee.com/'
     },
     {
         h3:'Stellar Structures',
         h4:'Windsor, ON',
         skills:['Astro', 'Tailwind'],
         body:[
-            ''
+            'Single page incorporating carousel, gallery, load more button, and contact form'
         ],
         date:'July 2024',
         icon:<FontAwesomeIcon icon={faCode} />,
         button:true,
-        list:false,
+        list:true,
         github:false,
         link:'https://stellarstructuresinc.com/'
     },
     {
         h3:'Copper Tunnel',
         h4:'Windsor, ON',
-        skills:['HTML','CSS','JavaScript','PHP','MySQL'],
-        body:[''],
+        skills:['HTML','CSS', 'Reponsive Design'],
+        body:['Sleek modern design and responsive design',
+            'Incorportates CSS grid and flex'
+        ],
         date:'June 2024',
         icon:<FontAwesomeIcon icon={faCode} />,
         button:true,
-        list:false,
+        list:true,
         github:false,
         link:'https://www.coppertunnel.net/'
     },
     {
         h3:'Boggs Coffee Landing Page',
         h4:'Windsor, ON',
-        skills:['HTML','CSS','JavaScript','PHP','MySQL'],
-        body:[''],
+        skills:['HTML','CSS'],
+        body:['Review latest Boggs Coffee entry',
+            'Exchanged landing page for full fledged website'],
         date:'May 2024',
         icon:<FontAwesomeIcon icon={faCode} />,
         button:true,
-        list:false,
+        list:true,
         github:false,
         link:'https://boggscoffee.com/'
     },
@@ -122,7 +141,7 @@ export const timeline=[
              'web development practice.',
         date:'January 2022 - April 2022',
         icon:<FontAwesomeIcon icon={faCode} />,
-        button:true,
+        button:false,
         list:false,
         github:false,
         link:'https://manso118.myweb.cs.uwindsor.ca/COMP3077/FinalProject/PHP/home/index.php'
@@ -149,7 +168,7 @@ export const timeline=[
         h4:'Communitech | Remote | Co-op',
         skills:['Wordpress','Squarespace','Teamwork','Wireframing'],
         body:[
-                'Understood client needs and outlined a plan of action to compete the deliverables within the two-to-six ' +
+                'Understood client needs and outlined a plan of action to complete the deliverables within the two-to-six ' +
                 'week engagement',
                 'Discussed website design ideas with teammates and created wireframes using Adobe XD',
                 'Created and redesigned websites using content management systems such as Squarespace and WordPress'
